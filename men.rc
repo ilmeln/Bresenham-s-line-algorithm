@@ -1,0 +1,16 @@
+#include "include/res.h"
+MY_MENU MENU
+BEGIN
+    POPUP "&Enter"
+    BEGIN
+        MENUITEM "&Enter",ENTER
+    END
+    POPUP "&Clear"
+    BEGIN
+        MENUITEM "&Clear",CLEAR
+    END
+    POPUP "&R"
+    BEGIN
+        MENUITEM "&R",R
+    END
+END

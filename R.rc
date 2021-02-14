@@ -1,0 +1,12 @@
+
+#include "include/res.h"
+
+DLG_R DIALOGEX 10, 10, 210, 90
+
+CAPTION "Enter R"
+FONT 8, "Tahoma"
+STYLE 0x10CE0804
+BEGIN
+  CONTROL "", EDIT_R, "EDIT", WS_VISIBLE|WS_BORDER|ES_LEFT, 0, 0, 190, 15
+  CONTROL "&Ok", BT_OK, "Button", 0x10010000, 70,  70, 46, 15
+END
